@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="gris.css"/>
+		<meta charset="utf-8" />
+		<title>Verger de Cassin</title>
+	<head>
+	
+	<body>
+  <video autoplay muted loop id="myVideo">
+  <source src="video2.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+  <h1>Bienvenue au verger du lycée René Cassin</h1>
+  <p>Depuis 2015, le projet VERGER PEDAGOGIQUE avance chaque année, étape
+  par étape avec comme objectifs, proposer un espace au sein du Lycée René Cassin où 
+  l'on peut cultiver des arbres fruitiers,<br/> des plantes aromatiques et des fleurs.
+  Cette espace vert permet d'aborder plusieurs domaines,<br/> de la sensibilisation aux cultures et la
+  consommation de fruits (Ref. Fruit à la Récré) en allant jusqu'au nouvelles 
+  technologies en passant par l'aménagement et la proxémie d'un espace architectural extérieur 
+  où la nature peut reprendre ses droits.
+  <br>Adresse Postale :
+Lycée René Cassin
+49, boulevard des Neuf Clés
+71018 Mâcon Cedex
+<br>Coordonnées téléphoniques
+Standard : 03 85 39 53 50
+;Fax secrétariat : 03 85 39 53 70
+;Fax intendance : 03 85 39 53 79
+<br>Courriel : 0710048S@ac-dijon.fr</p>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+<ul class="haut">
+		<li><a href="tdhtml.html" class="act">Aceuil</a></li>
+		<li><a href="spirale.html">Spirale</a></li>
+		<li><a href="emploi.html">Ruche</a></li>
+		<li><a href="Arbre.html">Arbre</a></li>
+		<li><a href="vignes.html">Vigne</a></li>
+		<li><a href="eau.html">Haie</a></li>
+</ul>
+<img src="LOGO CASSIN.png" class="jk"> </img>
+<script>
+
+var video = document.getElementById("myVideo");
+
+
+var btn = document.getElementById("myBtn");
+
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Lancer";
+  }
+}
+
+</script>
+	</body>

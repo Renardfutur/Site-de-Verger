@@ -1,0 +1,79 @@
+li {
+    float:left
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position:fixed;
+	width:96%
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 130px;
+    text-decoration: none;
+	width:40px
+}
+li a:hover{
+	background-color: grey;
+	color:
+}
+p l {
+	font-size:25px
+}
+p {
+	font-size:20px
+}
+
+div{
+	position: fixed;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  width: 50%;
+  padding: 10px;
+}
+dive{
+	position: fixed;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  width: 50%;
+  padding: 10px;
+  bottom:95px
+}
+.act{
+	background-color:green
+}
+.act:hover{
+	background-color:darkgreen
+}
+.bh{
+	background-image:url("vuevignes.jpg");
+	filter: blur(5px);
+	background-size:cover;
+	background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width:100%;
+  right:0px
+}
+.k {
+	top:90px;
+	position:absolute;
+	right:125px;
+	width:525px;
+	height:325px
+}
+.v{
+	position:absolute;
+	right:180px;
+	bottom:100px;
+	width:475px;
+	height:325px
+}
+.jui{
+	color:green
+}
